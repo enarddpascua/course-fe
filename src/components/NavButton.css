@@ -1,0 +1,16 @@
+.navbutton{
+    height: 3rem;
+    border-radius: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    background: transparent;
+    color: #484b55;
+    font-weight: bold;
+    border-bottom: .5px solid #665AC1;
+}
+
+.navbutton:hover{
+background-color: #665AC1;
+color: #C6C7CE;
+}

@@ -1,0 +1,8 @@
+#contentCard-wrapper{
+    height: 15rem;
+    width: 12rem;
+    margin-top: 1rem;
+    border: 0.5px solid #665AC1;
+    border-radius: 2px;
+    cursor: pointer;
+}
