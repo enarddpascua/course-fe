@@ -4,9 +4,11 @@ import {Link} from 'react-router-dom';
 
 const NavButton = ({title, url}) => {
     return (
-        <Link className='navbutton' to={url}>
-            {title}
-        </Link>
+        <div id='navbutton-wrapper'>
+            <Link className='navbutton' to={url}>
+                {title}
+            </Link>
+        </div>
     )
 }
 

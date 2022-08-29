@@ -4,7 +4,17 @@ import './styles.css';
 const Home = () => {
     return(
         <div id="parent">
-            Home
+            <div className="content">
+                <h1>Random online topics</h1>
+            </div>
+            <ul class="box-area">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
     )
 }

@@ -4,10 +4,11 @@
     max-height: 65%;
     border-radius: 5px;
     margin: 1rem;
-    background-color: #1b1e25;
+    background: linear-gradient(to bottom, #28234b, #665AC1);
     display: flex;
     flex-wrap: wrap;
     overflow: scroll;
     justify-content: space-evenly;
     align-items: center;
+    overflow-x: hidden;
 }

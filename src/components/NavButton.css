@@ -1,16 +1,19 @@
+#navbutton-wrapper{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .navbutton{
-    height: 3rem;
-    border-radius: 1px;
-    text-decoration: none;
-    cursor: pointer;
-    border:none;
-    background: transparent;
+    text-decoration :underline;
     color: #484b55;
-    font-weight: bold;
-    border-bottom: .5px solid #665AC1;
+    font-weight: bolder;
+    font-size: large;
+    padding: 1rem;
 }
 
 .navbutton:hover{
-background-color: #665AC1;
-color: #C6C7CE;
+    background-color: #665AC1;
+    color: #C6C7CE;
 }

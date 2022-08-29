@@ -5,9 +5,11 @@ const SideNav = ({children}) => {
     return (
         <div id='navigation-wrapper'>
             <div className='logo-wrapper'>
-                <img src='https://res.cloudinary.com/dzcu4deig/image/upload/v1661388736/course/Mediamodifier-Design_uyztwc.svg' alt='logo goes here'/>
+                <img src='https://res.cloudinary.com/dzcu4deig/image/upload/v1661573379/course/tlc-logo_dqfkgj.png' alt='logo goes here'/>
             </div>
-            <div className='buttons-wrapper'>{children}</div>
+            <div className='buttons-wrapper'>
+                {children}
+            </div>
         </div>
     );
 }
