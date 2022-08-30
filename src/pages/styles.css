@@ -36,7 +36,7 @@ padding: 0 7rem;
 	height: 25px;
 	background: rgba(255, 255, 255, 0.2);
 	animation: animate 20s linear infinite;
-	bottom: -100px;
+	bottom: -300px;
 	border-radius: 50%;
 }
 

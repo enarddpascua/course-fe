@@ -4,4 +4,7 @@
     border-radius: 5px;
     margin: 1rem;
     background: linear-gradient(to bottom, #1b1e25, #28234b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

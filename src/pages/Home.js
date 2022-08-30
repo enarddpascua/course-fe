@@ -5,9 +5,9 @@ const Home = () => {
     return(
         <div id="parent">
             <div className="content">
-                <h1>Random online topics</h1>
+                <h1>Random online courses</h1>
             </div>
-            <ul class="box-area">
+            <ul className="box-area">
                 <li></li>
                 <li></li>
                 <li></li>
