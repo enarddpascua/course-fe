@@ -26,7 +26,7 @@ const Course =()=>{
           </Head>
           <Content>
             {isLoading ? <p>Spinning</p> : courses.data.map((el, i) => (
-            <ContentCard key={i} title={el.topic}/>
+            <ContentCard key={i} title={el.topic} image={el.thumbnailURL}/>
             ))}
           </Content>
         </>

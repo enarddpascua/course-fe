@@ -5,10 +5,20 @@ const About = () => {
     return(
         <div id="parent">
             <div className="content">
-                    <h1>React/Spring Boot/PostgreSQL.</h1>
+            
                 <div className="about-description">
-                    <h2>Virtualisation and Cloud Computing</h2>
-                    <h3>Assessment</h3>
+                    <h1>ICT723</h1>
+                    <h2>Assessment 2</h2>
+                    <div className="technologies-wrapper">
+                    <h5>Technologies used: </h5>
+                        <img alt="logo" src="https://res.cloudinary.com/dzcu4deig/image/upload/v1661841466/course/thumbnails/React-icon.svg_c2vp8x.png"/>
+                        <img alt="logo" src="https://res.cloudinary.com/dzcu4deig/image/upload/v1661841468/course/thumbnails/spring_d6vwvu.png"/>                
+                        <img alt="logo" src="https://res.cloudinary.com/dzcu4deig/image/upload/v1661841467/course/thumbnails/postgres_uxxmkq.png"/>
+                        <img alt="logo" src="https://res.cloudinary.com/dzcu4deig/image/upload/v1661842935/course/thumbnails/heroku_so5s06.png"/>
+                        <img alt="logo" src="https://res.cloudinary.com/dzcu4deig/image/upload/v1661842927/course/thumbnails/postman_xidg18.png"/>
+                        <img alt="logo" src="https://res.cloudinary.com/dzcu4deig/image/upload/v1661841470/course/thumbnails/aws-logo_tateew.png"/>          
+                    </div>
+
                     <p>
                     Lorem Ipsum is simply dummy text of the printing 
                     and typesetting industry. 

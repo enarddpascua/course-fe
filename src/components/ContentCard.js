@@ -1,12 +1,12 @@
 import React from "react";
 import './ContentCard.css';
 
-const ContentBar = ({title}) => {
+const ContentBar = ({title, image}) => {
     return(
         <div id='contentCard-wrapper'>
             <span className="title">{title}</span>
             <div className="topic-logo">
-               Content
+             <img src={image} alt="logo"/>
             </div>
         </div>
     )

@@ -15,4 +15,17 @@
 
 .title{
     text-transform: capitalize;
+    margin-bottom: 2rem;
+    font-size: large;
+    font-weight:700;
+}
+
+.topic-logo{
+    height: 50%;
+    width: 50%;
+}
+
+.topic-logo img{
+    height: 100%;
+    width: 100%;
 }
