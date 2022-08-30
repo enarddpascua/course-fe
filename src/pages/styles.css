@@ -6,10 +6,18 @@
     min-height: 90%;
     background: linear-gradient(to bottom, #1b1e25, #665AC1);
     position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.content{
+/* .content{
     padding-top: 7rem;
+} */
+
+.home-wrapper{
+	width:max-content;
+	margin-left: 4rem;
 }
 
 .content h1{
