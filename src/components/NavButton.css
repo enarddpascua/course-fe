@@ -11,9 +11,21 @@
     font-weight: bolder;
     font-size: large;
     padding: 1rem;
+
 }
 
 .navbutton:hover{
     background-color: #665AC1;
     color: #C6C7CE;
+    border-radius: 5px;
+}
+
+.navbutton-active{
+    border-radius: 5px;
+    text-decoration :underline;
+    background-color: #665AC1;
+    color: #C6C7CE;
+    font-weight: bolder;
+    font-size: large;
+    padding: 1rem;
 }

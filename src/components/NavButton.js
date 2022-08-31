@@ -1,13 +1,13 @@
 import React from 'react';
 import './NavButton.css';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 const NavButton = ({title, url}) => {
     return (
         <div id='navbutton-wrapper'>
-            <Link className='navbutton' to={url}>
+            <NavLink className={({isActive}) => isActive ? 'navbutton-active' : 'navbutton' } to={url}>
                 {title}
-            </Link>
+            </NavLink>
         </div>
     )
 }
